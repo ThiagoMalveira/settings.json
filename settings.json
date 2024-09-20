@@ -1,0 +1,191 @@
+{
+  //Javascript
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // Typescript
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "typescript.tsserver.log": "off",
+  // Visuals
+  "window.zoomLevel": 1,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.statusBar.visible": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.8,
+  "explorer.compactFolders": false,
+  "typescript.suggest.autoImports": true,
+  "window.commandCenter": false,
+  "editor.minimap.enabled": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.tabSize": 2,
+  "workbench.editor.labelFormat": "short",
+  "editor.semanticHighlighting.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.activityBar.location": "hidden", // Acessar com CTRL Q
+  "explorer.confirmDelete": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.fontLigatures": true,
+  "workbench.colorTheme": "Min Dark",
+  "workbench.iconTheme": "symbols",
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "window.customTitleBarVisibility": "windowed",
+  "workbench.layoutControl.enabled": false,
+  "window.menuBarVisibility": "compact",
+  "terminal.integrated.fontSize": 12,
+  "editor.fontFamily": "Fira Code",
+  "workbench.editor.empty.hint": "hidden",
+  // Formatters
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "[prisma]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit",
+      "source.fixAll": "explicit"
+    },
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // Terminal things
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
+  "terminal.explorerKind": "external",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  // Emulator path
+  "emulator.emulatorPath": "C:\\Android\\SDK\\emulator",
+  // CODE SPELL
+  "cSpell.userWords": [
+    "chakra",
+    "clsx",
+    "Componentização",
+    "Dotenv",
+    "fastify",
+    "Fastify",
+    "feedbackwidget",
+    "Hono",
+    "IUGU",
+    "jupiter",
+    "middlewares",
+    "mixpanel",
+    "monaco",
+    "nestjs",
+    "Omni",
+    "Onboarded",
+    "pallas",
+    "prefetch",
+    "rocketseat",
+    "rotion",
+    "trpc",
+    "TRPC",
+    "unfollow",
+    "Unfollow",
+    "unform",
+    "Unform",
+    "unmark",
+    "upsert"
+  ],
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ],
+  "cSpell.language": "en,pt",
+  // GIT LENS
+  "gitlens.codeLens.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  // TAB NINE
+  "tabnine.experimentalAutoImports": true,
+  // POLACODE
+  "polacode.transparentBackground": true,
+  "polacode.target": "snippet",
+  // Golang
+  "[go.mod]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[go]": {
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "golang.go"
+  },
+  "go.inlayHints.functionTypeParameters": true,
+  "go.inlayHints.assignVariableTypes": true,
+  "go.inlayHints.compositeLiteralFields": true,
+  "go.inlayHints.compositeLiteralTypes": true,
+  "go.inlayHints.constantValues": true,
+  "go.inlayHints.parameterNames": true,
+  "go.inlayHints.rangeVariableTypes": true,
+  "go.toolsManagement.autoUpdate": true,
+  // Files that I don`t want to know/change
+  "files.exclude": {
+    "**\/CVS": true,
+    "**\/.DS_Store": true,
+    "**\/.hg": true,
+    "**\/.svn": true,
+    "**\/.git": true,
+    "node_modules": true
+  },
+  // Others but important
+  "extensions.ignoreRecommendations": true,
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv",
+    ".prettierrc": "json"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "files.eol": "\n",
+  "liveshare.featureSet": "insiders",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "git.enableSmartCommit": true,
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDragAndDrop": false,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "update.mode": "start",
+  "editor.unicodeHighlight.nonBasicASCII": false,
+}
